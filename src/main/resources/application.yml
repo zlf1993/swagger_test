@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: prd
+
+#---
+##開發環境配置
+#spring:
+#  profiles: dev
+#
+#server:
+#  prot: 8080
+#
+#---
+##測試環境配置
+#spring:
+#  profiles: stg
+#
+#server:
+#  port: 9090
+#
+#---
+##生產環境配置
+#spring:
+#  profiles: prd
+#
+#server:
+#  port: 1010
